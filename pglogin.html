@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tela de Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='pglogin.css'>
+    <script src='main.js'></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+        body{
+            font-family: 'Josefin Sans', sans-serif;
+            background-image: linear-gradient(45deg, rgb(84, 139, 173), rgb(18, 61, 135));
+        }
+        Div {
+            background-color: rgba(106, 129, 188, 0.95);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding:80px;
+            border-radius: 30px;
+            color: white;
+            opacity: 0.4;
+        }
+        input{
+            padding: 10px;
+            border: none;
+            outline:none;
+            font-size: 12px;
+            border-radius: 10px;
+        
+        }
+        button{
+            background-color: rgb(26, 35, 44);
+            border: none;
+            padding: 6px;
+            width: 50%;
+            border-radius: 10px;
+            color: rgb(1, 3, 4);
+        }
+        button:hover{
+            background-color: rgb(97, 197, 224);
+            cursor: pointer;
+        }
+    
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Login</h1>
+        <input type="text" placeholder="Nome">
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button>Enviar</button>
+    </div>
+</body>
+</html>
